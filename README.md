@@ -5,6 +5,7 @@ dyld[53238]: Library not loaded: @rpath/FBSDKCoreKit.framework/FBSDKCoreKit
 ```
 
 <details>
+
 ```
 dyld[53238]: Library not loaded: @rpath/FBSDKCoreKit.framework/FBSDKCoreKit
   Referenced from: <E803861E-0359-3FAE-8D73-0422043D664B> /Users/lukepighetti/Library/Developer/CoreSimulator/Devices/C07630F2-F933-4011-AED6-8A044F91969F/data/Containers/Bundle/Application/AEEE7A99-8E6D-403E-B49F-8533D2D10FBA/Runner.app/Runner
@@ -15,6 +16,7 @@ Library not loaded: @rpath/FBSDKCoreKit.framework/FBSDKCoreKit
 dyld config: DYLD_SHARED_CACHE_DIR=/Users/lukepighetti/Library/Developer/CoreSimulator/Caches/dyld/21G115/com.apple.CoreSimulator.SimRuntime.iOS-16-2.20C52 DYLD_ROOT_PATH=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot DYLD_LIBRARY_PATH=/Users/lukepighetti/Library/Developer/Xcode/DerivedData/Runner-amqpqurrcvpysffnskommxgpvneg/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/system/introspection DYLD_INSERT_LIBRARIES=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libBacktraceRecording.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib:/usr/lib/libRPAC.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib DYLD_FRAMEWORK_PATH=/Users/lukepighetti/Library/Developer/Xcode/DerivedData/Runner-amqpqurrcvpysffnskommxgpvneg/Build/Products/Debug-iphonesimulator DYLD_FALLBACK_FRAMEWORK_PATH=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks DYLD_FALLBACK_LIBRARY_PATH=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib
 (lldb)  
 ```
+
 </details>
 
 ## Environment
