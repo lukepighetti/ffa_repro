@@ -103,6 +103,34 @@ Build version 14C18
 • No issues found!
 ```
 
+### pubspec.yaml
+
+```
+name: ffa
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.1 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_facebook_auth: ^5.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+```
+
 ### ios/Runner/Info.plist
 
 ```
