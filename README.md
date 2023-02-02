@@ -47,6 +47,13 @@ ProductVersion:	12.6
 BuildVersion:	21G115
 ```
 
+### xcodebuild -version
+
+```
+Xcode 14.2
+Build version 14C18
+```
+
 ### flutter doctor -v
 
 ```
