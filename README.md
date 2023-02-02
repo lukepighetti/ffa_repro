@@ -21,6 +21,12 @@ dyld config: DYLD_SHARED_CACHE_DIR=/Users/lukepighetti/Library/Developer/CoreSim
 
 ## Environment
 
+### arch
+
+```
+arm64
+```
+
 ### ruby --version
 
 ```
