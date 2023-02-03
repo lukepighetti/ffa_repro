@@ -42,9 +42,9 @@ ruby 3.2.0 (2022-12-25 revision a528908271) [arm64-darwin21]
 ### sw_vers
 
 ```
-ProductName:	macOS
-ProductVersion:	12.6
-BuildVersion:	21G115
+ProductName:		macOS
+ProductVersion:		13.2
+BuildVersion:		22D49
 ```
 
 ### xcodebuild -version
