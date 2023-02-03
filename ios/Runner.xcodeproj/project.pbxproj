@@ -14,8 +14,6 @@
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		B41462F770B15CB17C542DF3 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBDA64114C41B9043B26497 /* Pods_Runner.framework */; };
-		D4ACB6CE298C9D8300B582FE /* FBSDKCoreKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ACB6CD298C9D8300B582FE /* FBSDKCoreKit.xcframework */; };
-		D4ACB6CF298C9D8300B582FE /* FBSDKCoreKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4ACB6CD298C9D8300B582FE /* FBSDKCoreKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D4ACB6CF298C9D8300B582FE /* FBSDKCoreKit.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,7 +47,6 @@
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCC5E9D5E76E2B8FED0744AE /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
-		D4ACB6CD298C9D8300B582FE /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBSDKCoreKit.xcframework; path = Pods/FBSDKCoreKit/XCFrameworks/FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4ACB6CE298C9D8300B582FE /* FBSDKCoreKit.xcframework in Frameworks */,
 				B41462F770B15CB17C542DF3 /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,7 +64,6 @@
 		0E1BAD093034A02E2A28A05D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D4ACB6CD298C9D8300B582FE /* FBSDKCoreKit.xcframework */,
 				3DBDA64114C41B9043B26497 /* Pods_Runner.framework */,
 			);
 			name = Frameworks;
@@ -82,6 +76,7 @@
 				BCC5E9D5E76E2B8FED0744AE /* Pods-Runner.release.xcconfig */,
 				2CF4A5D0003169EA803E704D /* Pods-Runner.profile.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
